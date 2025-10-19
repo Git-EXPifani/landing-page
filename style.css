@@ -1,0 +1,52 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0px 150px;
+}
+
+
+
+.hero,
+footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Flex Configuration*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+/* Non Header Section (EXCLUDING HEADER)*/
+.NH-section {
+    display: flex;
+}
+
+
+
+.NH-Vsection {
+    display: flex;
+    flex-direction: column;
+}
